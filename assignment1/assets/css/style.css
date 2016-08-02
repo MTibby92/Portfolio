@@ -316,14 +316,81 @@ h1 h2 h3 h4 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-/*
-
-
-==================================MEDIA QUERIES===========================================
 
 
 
-================================END MEDIA QUERIES ========================================
+/*==================================MEDIA QUERIES===========================================*/
+
+@media screen and (max-width: 980px) {
+	#headercontainer {
+		width: 726px;
+	}
+
+	.container {
+		width: 726px;
+	}
+
+	#myname {
+		margin-right: 197px;
+	}
+
+	#mainsection {
+		width: 420px;
+	}
+
+	#connect {
+		margin-left: 28px;
+	}
+
+	.portfolio-image-wrapper {
+		width: 85%;
+	}
+
+	.portfolio-image-label {
+		width: 357px;
+		margin-top: 185px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#headercontainer {
+		width: 653px;
+		margin-right: 20px;
+		margin-right: 20px;
+	}
+
+	.container {
+		width: 653px;
+		margin-right: 20px;
+		margin-right: 20px;
+	}
+
+	/*#myname {
+		margin-right: 197px;
+	}
+
+	#mainsection {
+		width: 420px;
+	}
+
+	#connect {
+		margin-left: 28px;
+	}
+
+	.portfolio-image-wrapper {
+		width: 85%;
+	}
+
+	.portfolio-image-label {
+		width: 357px;
+		margin-top: 185px;
+	}*/
+}
+
+@media screen and (max-width: 640px) {
+	
+}
+
+/*================================END MEDIA QUERIES ========================================*/
 
 
-*/
