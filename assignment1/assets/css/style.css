@@ -355,26 +355,100 @@ h1 h2 h3 h4 {
 @media screen and (max-width: 768px) {
 	#headercontainer {
 		width: 653px;
-		margin-right: 20px;
-		margin-right: 20px;
+    	margin-left: 20px;
+   		margin-right: 20px;
 	}
 
 	.container {
 		width: 653px;
-		margin-right: 20px;
+		margin-left: 20px;
 		margin-right: 20px;
 	}
 
-	/*#myname {
-		margin-right: 197px;
+	#myname {
+		margin-right: 124px;
 	}
 
 	#mainsection {
-		width: 420px;
+		width: 726px;
 	}
 
 	#connect {
-		margin-left: 28px;
+		width: 726px;
+		margin-left: 0px;
+		margin-right: 20px;
+		margin-top: 43px;
+	}
+
+	.portfolio-image-wrapper {
+		width: 40.5%;
+	}
+
+	.portfolio-image-label {
+		width: 294.02px;
+    	margin-top: 150px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#mainheader {
+		width: 100%;
+		position: static;
+		margin-bottom: 90px
+	}
+
+	#headercontainer {
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	nav {
+	    display: block;
+	    width: 100%;
+	    height: 15px;
+	    margin-top: 0px;
+	    margin-left: 0px;
+	    margin-right: 0px;
+	    margin-bottom: 20px;
+	    background-color: white;
+	    padding-top: 25px;
+	    padding-bottom: 25px;
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    position: relative;
+	    border-bottom: solid 2px;
+	    border-color: #cccccc;
+	    font-size: 17px;
+	}
+
+	nav a {
+		padding-left: 65px;
+		padding-right: 65px;	
+	}
+
+	.container {
+		width: 600px;
+		margin-right: 20px;
+		margin-right: 20px;
+	}
+
+	#myname {
+		margin-right: 0px;
+		width: 100%;
+		text-align: center;
+		padding-left: 0px;
+	}
+
+	#mainsection {
+		width: 600px;
+	}
+
+	#connect {
+		width: 600px;
+		margin-left: 0px;
+		margin-right: 20px;
+		margin-top: 43px;
 	}
 
 	.portfolio-image-wrapper {
@@ -382,13 +456,9 @@ h1 h2 h3 h4 {
 	}
 
 	.portfolio-image-label {
-		width: 357px;
-		margin-top: 185px;
-	}*/
-}
-
-@media screen and (max-width: 640px) {
-	
+		width: 510px;
+	    margin-top: 300px;
+	}
 }
 
 /*================================END MEDIA QUERIES ========================================*/
