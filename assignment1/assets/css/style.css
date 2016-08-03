@@ -354,29 +354,36 @@ h1 h2 h3 h4 {
 
 @media screen and (max-width: 768px) {
 	#headercontainer {
-		width: 653px;
-    	margin-left: 20px;
-   		margin-right: 20px;
+		width: 87.5%;
+    	margin-left: 6.25%;
+   		margin-right: 6.25%;
+	}
+
+	#headercontainer nav {
+		margin: 0;
+		padding: 0;
+		height: 15px;
+	    padding-top: 25px;
+	    padding-bottom: 25px;
 	}
 
 	.container {
-		width: 653px;
-		margin-left: 20px;
-		margin-right: 20px;
+		width: 87.5%;
+		margin-left: 6.25%;
+		margin-right: 6.25%;
 	}
 
 	#myname {
-		margin-right: 124px;
+		margin-right: 16.05%;
 	}
 
 	#mainsection {
-		width: 726px;
+		width: 100%;
 	}
 
 	#connect {
-		width: 726px;
+		width: 100%;
 		margin-left: 0px;
-		margin-right: 20px;
 		margin-top: 43px;
 	}
 
@@ -385,8 +392,8 @@ h1 h2 h3 h4 {
 	}
 
 	.portfolio-image-label {
-		width: 294.02px;
-    	margin-top: 150px;
+		width: 35.43%;
+	    margin-top: 17.5%;
 	}
 }
 
@@ -423,14 +430,14 @@ h1 h2 h3 h4 {
 	}
 
 	nav a {
-		padding-left: 65px;
-		padding-right: 65px;	
+		padding-left: 7%;
+		padding-right: 7%;	
 	}
 
 	.container {
-		width: 600px;
-		margin-right: 20px;
-		margin-right: 20px;
+		width: 87.5%;
+		margin-left: 6.25%;
+		margin-right: 6.25%;
 	}
 
 	#myname {
@@ -441,11 +448,11 @@ h1 h2 h3 h4 {
 	}
 
 	#mainsection {
-		width: 600px;
+		width: 100%;
 	}
 
 	#connect {
-		width: 600px;
+		width: 100%;
 		margin-left: 0px;
 		margin-right: 20px;
 		margin-top: 43px;
@@ -456,8 +463,8 @@ h1 h2 h3 h4 {
 	}
 
 	.portfolio-image-label {
-		width: 510px;
-	    margin-top: 300px;
+		width: 74.39%;
+	    margin-top: 38%;
 	}
 }
 
